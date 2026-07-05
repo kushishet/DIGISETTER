@@ -1,0 +1,26 @@
+.home-wrapper {
+    background-image: url('https://img.freepik.com/free-photo/white-paper-texture_1194-2301.jpg?semt=ais_hybrid&w=740');
+    background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-box {
+    background: rgba(255, 255, 255, 0.6); /* transparent white background */
+    color: #000; /* black text */
+    max-width: 700px;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
